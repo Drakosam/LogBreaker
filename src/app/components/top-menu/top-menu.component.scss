@@ -1,0 +1,22 @@
+@import "src/app/style/global";
+
+.top-menu{
+  &-container {
+    background-color: $color-primary;
+    height: $top-menu_height;
+    color: $color-primary-text;
+    display: flex;
+  }
+
+  &-button{
+    background-color: $color-primary;
+    box-sizing: border-box;
+    border: solid 3px $color-primary-text;
+    color: $color-primary-text;
+    height: 100%;
+    display: flex;
+    padding: 0 2em;
+    align-items: center;
+    cursor: pointer;
+  }
+}

@@ -1,0 +1,5 @@
+<div #LogLineContainer class="log-view-container" (wheel)="wheelMove($event)">
+  <div *ngFor="let item of line_txt" [className]="item['no']%2?'log-view-background_odd':'log-view-background_even'">
+    <app-log-line [show_log_line]="item['txt']" >xxxx</app-log-line>
+  </div>
+</div>

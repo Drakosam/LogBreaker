@@ -1,0 +1,9 @@
+<div class="top-menu-container text_not_selectable">
+  <div class="top-menu-button" (click)="loadText()"> *** Load log ***</div>
+  <div class="top-menu-button"
+       *ngFor="let itemName of logFilesNames"
+        (click)="switchFile(itemName)"
+  >
+    {{itemName}}
+  </div>
+</div>

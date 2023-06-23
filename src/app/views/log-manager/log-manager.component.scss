@@ -1,0 +1,11 @@
+@import "src/app/style/global";
+
+.log-manager{
+  &-container{
+    box-sizing: border-box;
+    padding: 0 15px ;
+    color: $color-secondary-text;
+    background-color: $color-secondary;
+    height: calc(100% - #{$top-menu_height});
+  }
+}

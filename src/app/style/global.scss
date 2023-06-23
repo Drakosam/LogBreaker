@@ -1,0 +1,16 @@
+$top-menu_height: 50px;
+
+// colors
+
+$color-primary: #323232;
+$color-primary-text: #ffffff;
+
+$color-secondary: #414141;
+$color-secondary-text: #ffffff;
+
+
+.text_not_selectable{
+  -webkit-user-select: none; /* Safari */
+  -ms-user-select: none; /* IE 10 and IE 11 */
+  user-select: none; /* Standard syntax */
+}
