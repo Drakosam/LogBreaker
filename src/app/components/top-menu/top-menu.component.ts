@@ -1,4 +1,4 @@
-import {Component, Input, OnDestroy, OnInit} from '@angular/core';
+import {Component, OnDestroy, OnInit} from '@angular/core';
 import {LogServiceService} from "../../services/log-service.service";
 import {Subscription} from "rxjs";
 import {AppService} from "../../services/app.service";

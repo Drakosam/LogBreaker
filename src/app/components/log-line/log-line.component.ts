@@ -1,7 +1,4 @@
 import {Component, Input, OnDestroy, OnInit} from '@angular/core';
-import {LogServiceService} from "../../services/log-service.service";
-import {Subscription} from "rxjs";
-import {LogItem} from "../../data-clasess/log-item";
 
 @Component({
   selector: 'app-log-line',

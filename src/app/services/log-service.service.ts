@@ -17,7 +17,7 @@ export class LogServiceService {
   pickLogFile(rawFile:any){
     const ff = new FileReader();
     ff.readAsText(rawFile.target.files[0]);
-    ff.onload = (e: any) => {
+    ff.onload = () => {
       const rawText = ff.result as string;
       this.logs.push(new LogItem(rawText.split(/\r?\n/), rawFile.target.files[0].name));
       this._logsStore.next(this.logs);
